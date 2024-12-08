@@ -6,6 +6,6 @@ const profile = { name: "Charlie",
 };
 // Second object Updates
 const updates = { age: 30, address: { zipcode: "94109", country: "USA" } };
-// Merging udates
+// Merged updates in Profile
 let updatedProfile={...profile,...updates};
 console.log(updatedProfile)
